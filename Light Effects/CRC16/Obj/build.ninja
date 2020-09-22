@@ -1,0 +1,34 @@
+#Generating source browse information for project Light Effects
+
+
+#Abbreviations
+cc = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\SourceIndexer.exe
+ll = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\PbdLink.exe
+bd = C$:\Program$ Files$ (x86)\IAR$ Systems\Embedded$ Workbench$ 8.4\common\bin\makeBrowseData.exe
+
+
+
+#Rules
+rule index
+  depfile = $out.dep
+  command = $cc -out=$out -f $in
+rule link
+  command = $ll -M $out $in
+rule browsedata
+  command = $bd $in -output  $out
+
+
+
+#Build steps
+build Checksum_CRC16.pbi : index Checksum_CRC16.xcl
+build main.pbi : index main.xcl
+build stm32f4xx_it.pbi : index stm32f4xx_it.xcl
+build iar_stm32f429ii_aca.pbi : index iar_stm32f429ii_aca.xcl
+build system_stm32f4xx.pbi : index system_stm32f4xx.xcl
+build Light$ Effects_part0.pbi : link Checksum_CRC16.pbi main.pbi
+build Light$ Effects_part1.pbi : link stm32f4xx_it.pbi iar_stm32f429ii_aca.pbi
+build Light$ Effects_part2.pbi : link system_stm32f4xx.pbi
+build Light$ Effects.pbd : link Light$ Effects_part0.pbi Light$ Effects_part1.pbi Light$ Effects_part2.pbi
+build Light$ Effects.pbw : browsedata Light$ Effects.pbd
+
+

@@ -1,0 +1,388 @@
+###############################################################################
+#
+# IAR ELF Linker V8.50.4.261/W32 for ARM                  05/Sep/2020  17:28:32
+# Copyright 2007-2020 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Exe\Light Effects.out
+#    Map file     =
+#        C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\List\Light Effects.map
+#    Command line =
+#        -f C:\Users\miltonji\AppData\Local\Temp\EW41AD.tmp
+#        ("C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Obj\Checksum_CRC16.o"
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Obj\iar_stm32f429ii_aca.o"
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Libraries\Librarybuild\Debug\Exe\Library.a"
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Obj\main.o"
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Obj\startup_stm32f429x.o"
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Obj\stm32f4xx_it.o"
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Obj\system_stm32f4xx.o"
+#        --no_out_extension -o
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\Exe\Light Effects.out" --map
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\CRC16\List\Light Effects.map"
+#        --config
+#        "C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles
+#        Efficient Programming\Light Effects\stm32f429xI.icf" --semihosting
+#        --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"INTVECT":
+       place at address 0x800'0000 { ro section .intvec };
+"ROM": place in [from 0x800'0000 to 0x81f'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"RAM": place in [from 0x2000'0000 to 0x2002'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+No sections matched the following patterns:
+
+  section .sram  in "SRAM"
+
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"INTVECT":                                  0x1ac
+  .intvec            ro code   0x800'0000   0x1ac  startup_stm32f429x.o [1]
+                             - 0x800'01ac   0x1ac
+
+"ROM":                                      0x88d
+  .text              ro code   0x800'01ac   0x1c0  main.o [1]
+  .text              ro code   0x800'036c    0x18  main.o [1]
+  .text              ro code   0x800'0384    0x18  main.o [1]
+  .text              ro code   0x800'039c   0x16c  iar_stm32f429ii_aca.o [1]
+  .text              ro code   0x800'0508    0x20  stm32f4xx_rcc.o [2]
+  .text              ro code   0x800'0528    0xc4  stm32f4xx_gpio.o [2]
+  .text              ro code   0x800'05ec   0x114  system_stm32f4xx.o [1]
+  .text              ro code   0x800'0700    0x38  packbits_init_single.o [5]
+  .text              ro code   0x800'0738    0x2c  iarttio.o [6]
+  .text              ro code   0x800'0764     0xc  XShttio.o [3]
+  .text              ro code   0x800'0770    0x28  data_init.o [5]
+  .text              ro code   0x800'0798    0x22  fpinit_M.o [4]
+  .iar.init_table    const     0x800'07bc    0x10  - Linker created -
+  .rodata            const     0x800'07cc     0x2  iar_stm32f429ii_aca.o [1]
+  .rodata            const     0x800'07d0    0x20  iar_stm32f429ii_aca.o [1]
+  .text              ro code   0x800'07f0    0x1e  cmain.o [5]
+  .text              ro code   0x800'080e     0x4  low_level_init.o [3]
+  .text              ro code   0x800'0812     0x4  exit.o [3]
+  .text              ro code   0x800'0818     0xa  cexit.o [5]
+  .text              ro code   0x800'0824    0x14  exit.o [6]
+  .text              ro code   0x800'0838    0x18  stm32f4xx_it.o [1]
+  .rodata            const     0x800'0850    0x10  iar_stm32f429ii_aca.o [1]
+  .text              ro code   0x800'0860    0x10  startup_stm32f429x.o [1]
+  .rodata            const     0x800'0870     0xc  iar_stm32f429ii_aca.o [1]
+  .text              ro code   0x800'087c     0xc  cstartup_M.o [5]
+  .rodata            const     0x800'0888     0x8  iar_stm32f429ii_aca.o [1]
+  .rodata            const     0x800'0890     0x4  iar_stm32f429ii_aca.o [1]
+  .text              ro code   0x800'0894     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0898     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'089c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08a0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08a4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08a8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08ac     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08b0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08b4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08b8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08bc     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08c0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08c4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08c8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08cc     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08d0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08d4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08d8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08dc     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08e0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08e4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08e8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08ec     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08f0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08f4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08f8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'08fc     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0900     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0904     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0908     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'090c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0910     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0914     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0918     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'091c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0920     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0924     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0928     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'092c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0930     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0934     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0938     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'093c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0940     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0944     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0948     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'094c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0950     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0954     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0958     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'095c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0960     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0964     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0968     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'096c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0970     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0974     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0978     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'097c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0980     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0984     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0988     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'098c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0990     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0994     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'0998     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'099c     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09a0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09a4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09a8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09ac     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09b0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09b4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09b8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09bc     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09c0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09c4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09c8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09cc     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09d0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09d4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09d8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09dc     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09e0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09e4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09e8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09ec     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09f0     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09f4     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09f8     0x4  startup_stm32f429x.o [1]
+  .text              ro code   0x800'09fc     0x4  startup_stm32f429x.o [1]
+  .rodata            const     0x800'0a00     0x0  packbits_init_single.o [5]
+  Initializer bytes  const     0x800'0a00    0x39  <for RAM-1>
+                             - 0x800'0a39   0x88d
+
+"RAM", part 1 of 2:                          0x44
+  RAM-1                       0x2000'0000    0x44  <Init block>
+    .data            inited   0x2000'0000    0x20  iar_stm32f429ii_aca.o [1]
+    .data            inited   0x2000'0020     0x4  iar_stm32f429ii_aca.o [1]
+    .data            inited   0x2000'0024     0xc  iar_stm32f429ii_aca.o [1]
+    .data            inited   0x2000'0030     0x4  system_stm32f4xx.o [1]
+    .data            inited   0x2000'0034     0x8  XShttio.o [3]
+    .bss             inited   0x2000'003c     0x4  main.o [1]
+    .bss             inited   0x2000'0040     0x4  main.o [1]
+                            - 0x2000'0044    0x44
+
+"RAM", part 2 of 2:                        0x2000
+  CSTACK                      0x2000'0048  0x2000  <Block>
+    CSTACK           uninit   0x2000'0048  0x2000  <Block tail>
+                            - 0x2000'2048  0x2000
+
+Unused ranges:
+
+         From           To       Size
+         ----           --       ----
+   0x800'0a39   0x81f'ffff  0x1f'f5c7
+  0x2000'0044  0x2000'0047        0x4
+  0x2000'2048  0x2002'ffff   0x2'dfb8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy/packbits (__iar_packbits_init_single3)
+    1 source range, total size 0x39 (83% of destination):
+           0x800'0a00  0x39
+    1 destination range, total size 0x44:
+          0x2000'0000  0x44
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles Efficient Programming\Light Effects\CRC16\Obj: [1]
+    iar_stm32f429ii_aca.o       364      114       48
+    main.o                      496        7        8
+    startup_stm32f429x.o        808
+    stm32f4xx_it.o               24
+    system_stm32f4xx.o          276        3        4
+    -------------------------------------------------
+    Total:                    1'968      124       60
+
+Library.a: [2]
+    stm32f4xx_gpio.o            196
+    stm32f4xx_rcc.o              32
+    -------------------------------------------------
+    Total:                      228
+
+dl7M_tln.a: [3]
+    XShttio.o                    12        7        8
+    exit.o                        4
+    low_level_init.o              4
+    -------------------------------------------------
+    Total:                       20        7        8
+
+m7M_tls.a: [4]
+    fpinit_M.o                   34
+    -------------------------------------------------
+    Total:                       34
+
+rt7M_tl.a: [5]
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    data_init.o                  40
+    packbits_init_single.o       56
+    -------------------------------------------------
+    Total:                      148
+
+shb_l.a: [6]
+    exit.o                       20
+    iarttio.o                    44
+    -------------------------------------------------
+    Total:                       64
+
+    Gaps                          4        4
+    Linker created                        16    8'192
+-----------------------------------------------------
+    Grand Total:              2'466      151    8'260
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'07bc          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'07cc          --   Gb  - Linker created -
+?main                    0x800'07f1         Code  Gb  cmain.o [5]
+BusFault_Handler         0x800'083f    0x2  Code  Gb  stm32f4xx_it.o [1]
+CSTACK$$Base            0x2000'0048          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2048          --   Gb  - Linker created -
+CriticalSecCntr         0x2000'0040    0x4  Data  Lc  main.o [1]
+DebugMon_Handler         0x800'0845    0x2  Code  Gb  stm32f4xx_it.o [1]
+DelayResolution100us     0x800'01ff    0xc  Code  Gb  main.o [1]
+EntrCritSection          0x800'036d   0x18  Code  Gb  main.o [1]
+ExtCritSection           0x800'0385   0x18  Code  Gb  main.o [1]
+GPIO_CLK                 0x800'07d0   0x20  Data  Gb  iar_stm32f429ii_aca.o [1]
+GPIO_Init                0x800'0529   0xa8  Code  Gb  stm32f4xx_gpio.o [2]
+GPIO_PIN                 0x800'0850   0x10  Data  Gb  iar_stm32f429ii_aca.o [1]
+GPIO_PORT               0x2000'0000   0x20  Data  Gb  iar_stm32f429ii_aca.o [1]
+GPIO_ReadInputDataBit    0x800'05d1   0x14  Code  Gb  stm32f4xx_gpio.o [2]
+GPIO_ResetBits           0x800'05e9    0x4  Code  Gb  stm32f4xx_gpio.o [2]
+GPIO_SetBits             0x800'05e5    0x4  Code  Gb  stm32f4xx_gpio.o [2]
+HardFault_Handler        0x800'083b    0x2  Code  Gb  stm32f4xx_it.o [1]
+MemManage_Handler        0x800'083d    0x2  Code  Gb  stm32f4xx_it.o [1]
+NMI_Handler              0x800'0839    0x2  Code  Gb  stm32f4xx_it.o [1]
+PendSV_Handler           0x800'0847    0x2  Code  Gb  stm32f4xx_it.o [1]
+RCC_AHB1PeriphClockCmd   0x800'0509   0x1c  Code  Gb  stm32f4xx_rcc.o [2]
+Region$$Table$$Base      0x800'07bc          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'07cc          --   Gb  - Linker created -
+STM_LEDInit              0x800'039d   0x48  Code  Gb  iar_stm32f429ii_aca.o [1]
+STM_LEDOff               0x800'03ff   0x1a  Code  Gb  iar_stm32f429ii_aca.o [1]
+STM_LEDOn                0x800'03e5   0x1a  Code  Gb  iar_stm32f429ii_aca.o [1]
+STM_Switch1GetState      0x800'047d   0x1a  Code  Gb  iar_stm32f429ii_aca.o [1]
+STM_Switch1Init          0x800'0419   0x2a  Code  Gb  iar_stm32f429ii_aca.o [1]
+STM_Switch2GetState      0x800'0497   0x4c  Code  Gb  iar_stm32f429ii_aca.o [1]
+STM_Switch2Init          0x800'0443   0x3a  Code  Gb  iar_stm32f429ii_aca.o [1]
+SVC_Handler              0x800'0843    0x2  Code  Gb  stm32f4xx_it.o [1]
+SW1_CLK                  0x800'0890    0x4  Data  Gb  iar_stm32f429ii_aca.o [1]
+SW1_PIN                  0x800'07cc    0x2  Data  Gb  iar_stm32f429ii_aca.o [1]
+SW1_PORT                0x2000'0020    0x4  Data  Gb  iar_stm32f429ii_aca.o [1]
+SW2_CLK                  0x800'0870    0xc  Data  Gb  iar_stm32f429ii_aca.o [1]
+SW2_PIN                  0x800'0888    0x8  Data  Gb  iar_stm32f429ii_aca.o [1]
+SW2_PORT                0x2000'0024    0xc  Data  Gb  iar_stm32f429ii_aca.o [1]
+SetSysClock              0x800'0629   0xaa  Code  Lc  system_stm32f4xx.o [1]
+SysTick_Config           0x800'01d1   0x2e  Code  Lc  main.o [1]
+SysTick_Handler          0x800'0849    0x8  Code  Gb  stm32f4xx_it.o [1]
+SystemCoreClock         0x2000'0030    0x4  Data  Gb  system_stm32f4xx.o [1]
+SystemInit               0x800'05ed   0x3c  Code  Gb  system_stm32f4xx.o [1]
+TimingDelay             0x2000'003c    0x4  Data  Lc  main.o [1]
+TimingDelay_Decrement    0x800'020b   0x10  Code  Gb  main.o [1]
+UsageFault_Handler       0x800'0841    0x2  Code  Gb  stm32f4xx_it.o [1]
+__NVIC_SetPriority       0x800'01ad   0x24  Code  Lc  main.o [1]
+__cmain                  0x800'07f1         Code  Gb  cmain.o [5]
+__exit                   0x800'0825   0x14  Code  Gb  exit.o [6]
+__iar_close_ttio         0x800'0739   0x2c  Code  Gb  iarttio.o [6]
+__iar_data_init3         0x800'0771   0x28  Code  Gb  data_init.o [5]
+__iar_init_vfp           0x800'0799         Code  Gb  fpinit_M.o [4]
+__iar_lookup_ttioh       0x800'0765    0x4  Code  Gb  XShttio.o [3]
+__iar_packbits_init_single3
+                         0x800'0701   0x38  Code  Gb  packbits_init_single.o [5]
+__iar_program_start      0x800'087d         Code  Gb  cstartup_M.o [5]
+__iar_ttio_handles      0x2000'0034    0x8  Data  Lc  XShttio.o [3]
+__low_level_init         0x800'080f    0x4  Code  Gb  low_level_init.o [3]
+__vector_table           0x800'0000         Data  Gb  startup_stm32f429x.o [1]
+_call_main               0x800'07fd         Code  Gb  cmain.o [5]
+_exit                    0x800'0819         Code  Gb  cexit.o [5]
+_main                    0x800'080b         Code  Gb  cmain.o [5]
+exit                     0x800'0813    0x4  Code  Gb  exit.o [3]
+main                     0x800'021b  0x134  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\miltonji\Desktop\FAE_DropBox\Labfiles_EWARM_8_40_2_Efficient_Programming\Labfiles Efficient Programming\Light Effects\CRC16\Obj
+[2] = Library.a
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+  2'466 bytes of readonly  code memory
+    151 bytes of readonly  data memory
+  8'260 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

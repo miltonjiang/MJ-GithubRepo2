@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>4</fileVersion>
+    <fileChecksum>113710984</fileChecksum>
+    <configuration>
+        <name>CRC16</name>
+        <outputs>
+            <file>$PROJ_DIR$\board\iar_stm32f429ii_aca.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Librarybuild\Debug\Exe\Library.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_conf.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\system_stm32f4xx.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\startup\system_stm32f4xx.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\app\main.c</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_it.c</file>
+            <file>$PROJ_DIR$\CRC16\Obj\Checksum_CRC16.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\main.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\stm32f429xI.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+            <file>$PROJ_DIR$\startup\startup_stm32f429x.s</file>
+            <file>$PROJ_DIR$\board\iar_stm32f429ii_aca.c</file>
+            <file>$PROJ_DIR$\CRC16\Obj\stm32f4xx_it.xcl</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+            <file>$PROJ_DIR$\app\Checksum_CRC16.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\iar_stm32f429ii_aca.xcl</file>
+            <file>$PROJ_DIR$\CRC16\Obj\startup_stm32f429x.o</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\stm32f4xx_it.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h</file>
+            <file>$PROJ_DIR$\app\includes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\CRC16\List\Light Effects.map</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\main.o</file>
+            <file>$PROJ_DIR$\CRC16\Obj\iar_stm32f429ii_aca.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\Checksum_CRC16.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\stm32f4xx_it.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\CRC16\Exe\Light Effects.out</file>
+            <file>$PROJ_DIR$\CRC16\Obj\Checksum_CRC16.o</file>
+            <file>$PROJ_DIR$\CRC16\Obj\system_stm32f4xx.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\board\arm_comm.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_it.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\iar_stm32f429ii_aca.o</file>
+            <file>$PROJ_DIR$\CRC16\Obj\main.xcl</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\CRC16\Obj\system_stm32f4xx.__cstat.et</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 44 59</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\system_stm32f4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 6</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 77</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63 70 43 76 4 19 15 14 29 1 58 73 35 30 5 36 25 28 52 13 53 48 33 54 69 41 40 56 50 34 21 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 75</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 16</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 68 76 4 19 15 14 51 7 39 57 43 20 9 78 3 17 27 73 45 66 5 36 63 70 29 1 58 35 30 25 28 52 13 53 48 33 54 69 41 40 56 50 34 21 67 64 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\stm32f4xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 24</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 55</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72 63 70 43 76 4 19 15 14 29 1 58 73 35 30 5 36 25 28 52 13 53 48 33 54 69 41 40 56 50 34 21 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_stm32f429x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\iar_stm32f429ii_aca.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 63 70 43 76 4 19 15 14 29 1 58 73 35 30 5 36 25 28 52 13 53 48 33 54 69 41 40 56 50 34 21 67</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Checksum_CRC16.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 12</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 68 76 4 19 15 14 51 7 39 57 43 20 9 78 3 17 27 73 45 66 5 36 63 70 29 1 58 35 30 25 28 52 13 53 48 33 54 69 41 40 56 50 34 21 67 64 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CRC16\Exe\Light Effects.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 18 60 74 2 46 32 37 61 38 65 71 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\app\Checksum_CRC32_Static.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+        <forcedrebuild>
+            <name>$PROJ_DIR$\app\Checksum_CRC32_Dynamic.c</name>
+            <tool>ICCARM</tool>
+        </forcedrebuild>
+    </configuration>
+    <configuration>
+        <name>CRC32_Dynamic</name>
+        <outputs>
+            <file>$PROJ_DIR$\board\iar_stm32f429ii_aca.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Librarybuild\Debug\Exe\Library.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_conf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\startup\system_stm32f4xx.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\app\main.c</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_it.c</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+            <file>$PROJ_DIR$\app\Checksum_CRC32_Dynamic.c</file>
+            <file>$PROJ_DIR$\startup\startup_stm32f429x.s</file>
+            <file>$PROJ_DIR$\board\iar_stm32f429ii_aca.c</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\stm32f4xx_it.o</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\startup_stm32f429x.o</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\Checksum_CRC32_Dynamic.__cstat.et</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\Checksum_CRC32_Dynamic.o</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\stm32f4xx_it.__cstat.et</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\iar_stm32f429ii_aca.__cstat.et</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Exe\Light Effects.out</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h</file>
+            <file>$PROJ_DIR$\app\includes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\system_stm32f4xx.__cstat.et</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\main.o</file>
+            <file>$PROJ_DIR$\stm32f429xI_CRC32_Dynamic.icf</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\board\arm_comm.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_it.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\List\Light Effects.map</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\iar_stm32f429ii_aca.o</file>
+            <file>$PROJ_DIR$\CRC32_Dynamic\Obj\system_stm32f4xx.o</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 71 35</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\system_stm32f4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 45</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 65 43 69 4 15 13 12 24 1 56 68 36 26 5 37 21 23 51 11 52 48 29 53 64 41 40 54 49 33 17 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 63 69 4 15 13 12 50 6 39 55 43 16 8 70 3 14 22 68 44 61 5 37 58 65 24 1 56 36 26 21 23 51 11 52 48 29 53 64 41 40 54 49 33 17 62 59 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\stm32f4xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 67 58 65 43 69 4 15 13 12 24 1 56 68 36 26 5 37 21 23 51 11 52 48 29 53 64 41 40 54 49 33 17 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Checksum_CRC32_Dynamic.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 31</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 63 69 4 15 13 12 50 6 39 55 43 16 8 70 3 14 22 68 44 61 5 37 58 65 24 1 56 36 26 21 23 51 11 52 48 29 53 64 41 40 54 49 33 17 62 59 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_stm32f429x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 28</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\iar_stm32f429ii_aca.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 72</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 34</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 58 65 43 69 4 15 13 12 24 1 56 68 36 26 5 37 21 23 51 11 52 48 29 53 64 41 40 54 49 33 17 62</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CRC32_Dynamic\Exe\Light Effects.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 47 31 72 2 46 28 27 73 38 60 66 57</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+    <configuration>
+        <name>CRC32_Static</name>
+        <outputs>
+            <file>$PROJ_DIR$\board\iar_stm32f429ii_aca.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\Libraries\Librarybuild\Debug\Exe\Library.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_conf.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$PROJ_DIR$\startup\system_stm32f4xx.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\app\main.c</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_it.c</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_gpio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\app\Checksum_CRC32_Static.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_usart.h</file>
+            <file>$PROJ_DIR$\app\Checksum_CRC32_Dynamic.c</file>
+            <file>$PROJ_DIR$\startup\startup_stm32f429x.s</file>
+            <file>$PROJ_DIR$\board\iar_stm32f429ii_aca.c</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_dma.h</file>
+            <file>$PROJ_DIR$\app\Checksum_CRC16.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\intrinsics.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_exti.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_pwr.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_tim.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\mpu_armv7.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_adc.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sdio.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_sai.h</file>
+            <file>$PROJ_DIR$\app\includes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iar_intrinsics_common.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_ltdc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_syscfg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_fmc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_i2c.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rcc.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_spi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\cmsis_iccarm.h</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\..\Libraries\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_crc.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\board\arm_comm.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\misc.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\assert.h</file>
+            <file>$PROJ_DIR$\..\Libraries\STM32F4xx_StdPeriph_Driver\inc\stm32f4xx_rtc.h</file>
+            <file>$TOOLKIT_DIR$\CMSIS\Core\Include\core_cm4.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\app\stm32f4xx_it.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\iccarm_builtin.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ctype.h</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\system_stm32f4xx.o</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\system_stm32f4xx.xcl</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\startup_stm32f429x.o</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\Checksum_CRC32_Static.__cstat.et</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\Checksum_CRC32_Static.o</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\iar_stm32f429ii_aca.o</file>
+            <file>$PROJ_DIR$\stm32f429xI_CRC32_Static.icf</file>
+            <file>$PROJ_DIR$\CRC32_Static\List\Light Effects.map</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\stm32f4xx_it.xcl</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\Checksum_CRC32_Static.xcl</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\Light Effects.pbd</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\system_stm32f4xx.__cstat.et</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\iar_stm32f429ii_aca.xcl</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\stm32f4xx_it.o</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\main.o</file>
+            <file>$PROJ_DIR$\CRC32_Static\Exe\Light Effects.out</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\iar_stm32f429ii_aca.__cstat.et</file>
+            <file>$PROJ_DIR$\CRC32_Static\Obj\stm32f4xx_it.__cstat.et</file>
+        </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 70 79</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\system_stm32f4xx.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 63</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 62</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49 56 37 60 4 16 14 12 26 1 47 59 30 27 5 31 22 25 42 11 43 39 28 44 55 35 34 45 40 29 18 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\main.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 67</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 78</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 72</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 54 60 4 16 14 12 41 6 33 46 37 17 8 61 3 15 24 59 38 52 5 31 49 56 26 1 47 30 27 22 25 42 11 43 39 28 44 55 35 34 45 40 29 18 53 50 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\stm32f4xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 71</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 77</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 49 56 37 60 4 16 14 12 26 1 47 59 30 27 5 31 22 25 42 11 43 39 28 44 55 35 34 45 40 29 18 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\app\Checksum_CRC32_Static.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 73</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 66</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 65</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 36 54 60 4 16 14 12 41 6 33 46 37 17 8 61 3 15 24 59 38 52 5 31 49 56 26 1 47 30 27 22 25 42 11 43 39 28 44 55 35 34 45 40 29 18 53 50 0</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup\startup_stm32f429x.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\board\iar_stm32f429ii_aca.c</name>
+            <outputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 76</file>
+                </tool>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+                <tool>
+                    <name>__cstat</name>
+                    <file> 80</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 0 49 56 37 60 4 16 14 12 26 1 47 59 30 27 5 31 22 25 42 11 43 39 28 44 55 35 34 45 40 29 18 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\CRC32_Static\Exe\Light Effects.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 69 66 68 2 78 64 77 62 32 51 57 48</file>
+                </tool>
+            </inputs>
+        </file>
+    </configuration>
+</project>

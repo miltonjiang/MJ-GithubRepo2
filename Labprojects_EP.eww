@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\Optimization\Optimization.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Light Effects\Light Effects.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Cost of char\Cost of char.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Cost of float\Cost of float.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Obfuscate\Obfuscated code.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Stack\Stack.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\Libraries\Librarybuild\Library.ewp</path>
+    </project>
+    <batchBuild>
+        <batchDefinition>
+            <name>All</name>
+            <member>
+                <project>Library</project>
+                <configuration>Debug</configuration>
+            </member>
+            <member>
+                <project>Optimization</project>
+                <configuration>Debug</configuration>
+            </member>
+            <member>
+                <project>Light Effects</project>
+                <configuration>CRC16</configuration>
+            </member>
+            <member>
+                <project>Light Effects</project>
+                <configuration>CRC32_Static</configuration>
+            </member>
+            <member>
+                <project>Light Effects</project>
+                <configuration>CRC32_Dynamic</configuration>
+            </member>
+            <member>
+                <project>Cost of char</project>
+                <configuration>Debug</configuration>
+            </member>
+            <member>
+                <project>Cost of float</project>
+                <configuration>Float</configuration>
+            </member>
+            <member>
+                <project>Cost of float</project>
+                <configuration>Int</configuration>
+            </member>
+            <member>
+                <project>Obfuscated code</project>
+                <configuration>Deobfuscate</configuration>
+            </member>
+            <member>
+                <project>Obfuscated code</project>
+                <configuration>Obfuscate</configuration>
+            </member>
+            <member>
+                <project>Stack</project>
+                <configuration>Debug</configuration>
+            </member>
+        </batchDefinition>
+    </batchBuild>
+</workspace>
