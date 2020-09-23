@@ -1,4 +1,5 @@
 //MJ added this comment line for git testing , file: app/main.c
+//MJ change made after tag v1.0
 /*************************************************************************
 *
 *    Used with ICCARM and AARM.

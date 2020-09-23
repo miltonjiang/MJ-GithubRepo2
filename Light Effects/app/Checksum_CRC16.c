@@ -1,4 +1,5 @@
 //MJ added this comment line for git testing , file: app/checksun_CRC16.c
+//MJ change made after tag v1.0
 #include "includes.h"
 
 extern unsigned short __checksum;																// linker defined symbol
