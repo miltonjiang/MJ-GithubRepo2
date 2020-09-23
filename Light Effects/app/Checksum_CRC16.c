@@ -1,3 +1,4 @@
+//MJ added this comment line for git testing , file: app/checksun_CRC16.c
 #include "includes.h"
 
 extern unsigned short __checksum;																// linker defined symbol

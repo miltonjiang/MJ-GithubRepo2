@@ -1,4 +1,4 @@
-###MJ modified
+//MJ added this comment line for git testing , file: app/main.c
 /*************************************************************************
 *
 *    Used with ICCARM and AARM.
